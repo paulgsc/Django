@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    padding: 0;
+    margin: 0;
+    font-family: "Capsule Sans Text", sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.brand__section {
+    inset: 0px;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgb(178, 222, 196);
+
+}
+
+.brand__section-video {
+    inset: 0px;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgb(178, 222, 196);
+    display: block;
+}
+
+.brand-video {
+    left: 0px;
+    width: 100%;
+    display: block;
+    height: 100vh;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    background-color: rgb(178, 222, 196);
+    transition: opacity 0.5s ease-in-out 0s;    
+}
+
+.brand__section-title {
+    background-color: transparent;
+    position: absolute;
+    padding: 0 10rem;
+    height: 46rem;
+    margin-top: 0;
+    top: 0;
+}
+
+.brand__section-content {
+    min-width: 980px;
+    max-width: 1400px;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+}
+
+.section_title {
+    padding-top: 10rem;
+    display: block;
+}
+
+.section_title h1 {
+    margin: 0 2.5rem;
+    font-size: 4.5rem;
+    width: 35rem;
+    height: 15rem;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    transition: 1s ease;
+    line-height: 1.1;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(95, 160, 120)
+}
